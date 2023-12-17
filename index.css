@@ -1,0 +1,70 @@
+#immagine{
+    width: 200px;
+    height: 100px;
+   background-image:url(../ES1/img/Luca_Sorgi.png) ; 
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom;
+    cursor: copy;
+    filter: blur(2px);
+
+    filter: grayscale(100%);
+    filter: hue-rotate(30deg);
+}
+div:hover{
+height: 200px;
+width: 100px;
+/*display: none;*/
+/*visibility: hidden;*/
+}
+section{
+    height:50px ;
+    width: 500px;
+    background-color: red;
+}
+article{
+ height: 500px;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+ 
+}
+section{
+    height: 120px;
+    width: 220px;
+    /*animation-name: giraimmagine;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-delay: 1s;
+    animation-timing-function: linear;*/
+    box-shadow: 10px 20px 15px black;
+  
+
+}
+header{
+    text-shadow:green, 200px 300px orange;
+}
+
+    
+
+
+/*@keyframes giraimmagine
+{
+    0%{
+        rotate: 0deg;
+        transform: translateX(0px);
+        opacity: 0.5;
+    }
+    50%
+    {
+        roate:180deg;
+        transform: translateY(-2000px);
+        transform: translateX(1000px);
+    }
+    100%{
+        rotate: 360deg;
+        transform: translateY(0px);
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
